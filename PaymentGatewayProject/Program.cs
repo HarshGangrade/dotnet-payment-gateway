@@ -16,8 +16,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseDefaultFiles();   // looks for index.html automatically
-app.UseStaticFiles();    // enables wwwroot
+app.UseDefaultFiles();  
+app.UseStaticFiles();    
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();

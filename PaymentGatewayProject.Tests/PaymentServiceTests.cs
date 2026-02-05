@@ -48,7 +48,7 @@ namespace PaymentGatewayProject.Tests
             var result = _service.Process(1000);
 
             Assert.False(result.FeeApplied);
-            Assert.Equal(1050, result.FinalAmount);
+            Assert.Equal(1000, result.FinalAmount);
         }
 
         [Fact]

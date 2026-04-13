@@ -29,7 +29,7 @@ jobs:
       run: dotnet test PaymentGatewayProject.slnx --no-build --configuration Release
 
     - name: upload artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: dist-files
         path: PaymentGatewayProject
